@@ -1,0 +1,12 @@
+/* eslint-disable prettier/prettier */
+export interface PokemonResponse {
+  count: number;
+  next: string;
+  previous: null;
+  results: Pokemon[];
+}
+
+export interface Pokemon {
+  name: string;
+  url: string;
+}
