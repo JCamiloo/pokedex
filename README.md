@@ -35,3 +35,9 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
+## Production Build
+Clone ```.env.template``` and rename to ```.env```
+
+```bash
+$ docker-compose -f docker-compose.prod.yaml up --build -d
+```
